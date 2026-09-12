@@ -6,11 +6,11 @@
 <title>The Waves Beachfront Stay — Gleneagles, Salt Rock, Ballito</title>
 <meta name="description" content="A 3-bedroom beachfront apartment in Salt Rock, Ballito — 2 minutes from the sand, ocean views, private pool and a 9.6 Exceptional guest rating. Book direct via Booking.com or Airbnb." />
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b3142'/%3E%3Cpath d='M15 55c8-10 17-10 25 0s17 10 25 0 17-10 25 0M15 70c8-10 17-10 25 0s17 10 25 0 17-10 25 0' stroke='%23e08e6d' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23363825'/%3E%3Ccircle cx='50' cy='32' r='5' fill='%23f6f3ec'/%3E%3Cpath d='M18 47c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round'/%3E%3Cpath d='M18 61c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round' opacity='.68'/%3E%3Cpath d='M18 75c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round' opacity='.4'/%3E%3C/svg%3E" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css" />
 
@@ -56,8 +56,17 @@
 <header class="site-header" id="siteHeader">
   <div class="container nav">
     <a href="#home" class="brand">
-      <strong>The Waves</strong>
-      <span>Salt Rock · Ballito</span>
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="18.5" stroke="currentColor" stroke-width="1"/>
+        <circle cx="20" cy="12.5" r="1.8" fill="currentColor"/>
+        <path d="M8 18.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M8 23.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity="0.65"/>
+        <path d="M8 28.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity="0.38"/>
+      </svg>
+      <span class="brand-word">
+        <strong>The Waves</strong>
+        <span>Salt Rock · Ballito</span>
+      </span>
     </a>
 
     <ul class="nav-links">
@@ -470,31 +479,37 @@
       <span class="eyebrow">Good to know</span>
       <h2>House rules</h2>
     </div>
-    <div class="rules-grid reveal">
-      <div class="rules-card">
-        <h4>🕑 Check-in &amp; check-out</h4>
-        <ul>
-          <li>Check-in: 14:00 – 22:00</li>
-          <li>Check-out: 09:00 – 10:00</li>
-          <li>Please share your arrival time in advance</li>
-        </ul>
-      </div>
-      <div class="rules-card">
-        <h4>🌙 During your stay</h4>
-        <ul>
-          <li>Quiet hours: 21:00 – 08:00</li>
-          <li>No smoking</li>
-          <li>No parties or events</li>
-        </ul>
-      </div>
-      <div class="rules-card">
-        <h4>👪 Guests &amp; pets</h4>
-        <ul>
-          <li>Children of all ages welcome</li>
-          <li>Maximum 6 guests</li>
-          <li>Pets are not allowed</li>
-        </ul>
-      </div>
+    <div class="accordion reveal">
+      <details class="accordion-item" open>
+        <summary>Check-in &amp; check-out<span class="chev"></span></summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Check-in: 14:00 – 22:00</li>
+            <li>Check-out: 09:00 – 10:00</li>
+            <li>Please share your arrival time in advance</li>
+          </ul>
+        </div>
+      </details>
+      <details class="accordion-item">
+        <summary>During your stay<span class="chev"></span></summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Quiet hours: 21:00 – 08:00</li>
+            <li>No smoking</li>
+            <li>No parties or events</li>
+          </ul>
+        </div>
+      </details>
+      <details class="accordion-item">
+        <summary>Guests &amp; pets<span class="chev"></span></summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Children of all ages welcome</li>
+            <li>Maximum 6 guests</li>
+            <li>Pets are not allowed</li>
+          </ul>
+        </div>
+      </details>
     </div>
   </div>
 </section>
@@ -538,9 +553,38 @@
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="container">
+    <svg class="footer-badge" viewBox="0 0 160 160" fill="none" aria-hidden="true">
+      <circle cx="80" cy="80" r="77" stroke="currentColor" stroke-width="1"/>
+      <circle cx="80" cy="80" r="72.5" stroke="currentColor" stroke-width="0.5" opacity="0.55"/>
+      <defs>
+        <path id="sealTop" d="M 22 80 A 58 58 0 0 1 138 80" />
+        <path id="sealBottom" d="M 22 80 A 58 58 0 0 0 138 80" />
+      </defs>
+      <text font-size="12" letter-spacing="3.2" fill="currentColor">
+        <textPath href="#sealTop" startOffset="50%" text-anchor="middle">THE WAVES</textPath>
+      </text>
+      <text font-size="8" letter-spacing="1.6" fill="currentColor">
+        <textPath href="#sealBottom" startOffset="50%" text-anchor="middle">SALT ROCK · BALLITO</textPath>
+      </text>
+      <g transform="translate(80,80) scale(1.55)">
+        <circle cy="-15" r="2.4" fill="currentColor"/>
+        <path d="M-16 -3c3.2-3.4 6.6-3.4 9.9 0s6.6 3.4 9.9 0 6.6-3.4 9.9 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M-16 5c3.2-3.4 6.6-3.4 9.9 0s6.6 3.4 9.9 0 6.6-3.4 9.9 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.65"/>
+        <path d="M-16 13c3.2-3.4 6.6-3.4 9.9 0s6.6 3.4 9.9 0 6.6-3.4 9.9 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.38"/>
+      </g>
+    </svg>
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="brand"><strong>The Waves</strong></div>
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="20" cy="20" r="18.5" stroke="currentColor" stroke-width="1"/>
+            <circle cx="20" cy="12.5" r="1.8" fill="currentColor"/>
+            <path d="M8 18.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M8 23.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity="0.65"/>
+            <path d="M8 28.5c2.5-2.6 5-2.6 7.5 0s5 2.6 7.5 0 5-2.6 7.5 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity="0.38"/>
+          </svg>
+          <strong>The Waves</strong>
+        </div>
         <p>Beachfront Stay — Gleneagles, Salt Rock, Ballito, KwaZulu-Natal, South Africa.</p>
       </div>
       <div>

@@ -1,0 +1,12 @@
+{
+  "name": "the-waves-ballito",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static site for The Waves Beachfront Stay - Salt Rock, Ballito",
+  "scripts": {
+    "start": "serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
