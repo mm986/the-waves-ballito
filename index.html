@@ -4,9 +4,15 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>The Waves Beachfront Stay — Gleneagles, Salt Rock, Ballito</title>
-<meta name="description" content="A 3-bedroom beachfront apartment in Salt Rock, Ballito — 2 minutes from the sand, ocean views, private pool and a 9.6 Exceptional guest rating. Book direct via Booking.com or Airbnb." />
+<meta name="description" content="A 3-bedroom beachfront apartment in Salt Rock, Ballito — 2 minutes from the sand, ocean views, shared pool and a 9.6 Exceptional guest rating. Book direct via Booking.com or Airbnb." />
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23363825'/%3E%3Ccircle cx='50' cy='32' r='5' fill='%23f6f3ec'/%3E%3Cpath d='M18 47c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round'/%3E%3Cpath d='M18 61c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round' opacity='.68'/%3E%3Cpath d='M18 75c6-6.5 12.5-6.5 18.7 0s12.7 6.5 19 0 12.7-6.5 19 0' stroke='%23f6f3ec' stroke-width='4.2' fill='none' stroke-linecap='round' opacity='.4'/%3E%3C/svg%3E" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#363825" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +31,14 @@
   "@context": "https://schema.org",
   "@type": "LodgingBusiness",
   "name": "The Waves Beachfront Stay - Gleneagles",
-  "description": "Beachfront 3-bedroom, 2-bathroom apartment in Salt Rock, Ballito with an outdoor pool, sea views and free WiFi, 2 minutes' walk from Salt Rock Beach.",
-  "image": "assets/images/hero-beachfront.jpg",
+  "description": "Beachfront 3-bedroom, 2-bathroom apartment in Salt Rock, Ballito with a shared outdoor pool, sea views and free WiFi, 2 minutes' walk from Salt Rock Beach.",
+  "url": "https://www.thewavesbeachfront.co.za/",
+  "image": [
+    "https://www.thewavesbeachfront.co.za/assets/images/hero-beachfront.jpg",
+    "https://www.thewavesbeachfront.co.za/assets/images/living-room.jpg",
+    "https://www.thewavesbeachfront.co.za/assets/images/pool-aerial.jpg",
+    "https://www.thewavesbeachfront.co.za/assets/images/bedroom-1-master.jpg"
+  ],
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1 Garden Road, Gleneagles, Unit 1",
@@ -35,17 +47,49 @@
     "postalCode": "4420",
     "addressCountry": "ZA"
   },
+  "sameAs": [
+    "https://www.booking.com/Share-FTQgid",
+    "https://www.airbnb.co.za/rooms/1359226054401859183"
+  ],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "9.6",
     "bestRating": "10",
     "reviewCount": "29"
   },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Kassie" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "Great hospitality, great exquisite apartment, clean, great views and easy access to beach, shops, etc."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Veronicca" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "The place was very clean, comfortable beds, everything you will need for the kitchen, kids' beach toys. Walking distance to the beach, like 2 minutes. Very kids friendly."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Vicky" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "reviewBody": "What an awesome place to stay. So close to the beach and absolutely stunning. We loved it and will definitely be back!"
+    }
+  ],
   "amenityFeature": [
-    { "@type": "LocationFeatureSpecification", "name": "Outdoor Swimming Pool" },
-    { "@type": "LocationFeatureSpecification", "name": "Beachfront" },
-    { "@type": "LocationFeatureSpecification", "name": "Free WiFi" },
-    { "@type": "LocationFeatureSpecification", "name": "Free Parking" }
+    { "@type": "LocationFeatureSpecification", "name": "Beach Access", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Shared Outdoor Pool", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Free Secure Parking", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Air Conditioning", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Backup Power", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fully Equipped Kitchen", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Washer & Dryer", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Braai / BBQ Area", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Kids' Play Area", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Dedicated Workspace", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Private Garden & Patio", "value": true }
   ]
 }
 </script>
@@ -74,6 +118,7 @@
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#amenities">Amenities</a></li>
       <li><a href="#location">Location</a></li>
+      <li><a href="salt-rock-ballito-guide.html">Area Guide</a></li>
       <li><a href="#reviews">Reviews</a></li>
     </ul>
 
@@ -94,6 +139,7 @@
   <a href="#gallery">Gallery</a>
   <a href="#amenities">Amenities</a>
   <a href="#location">Location</a>
+  <a href="salt-rock-ballito-guide.html">Area Guide</a>
   <a href="#reviews">Reviews</a>
   <a href="#book" class="btn btn--primary">Check Availability</a>
 </div>
@@ -103,7 +149,7 @@
   <div class="container hero-content">
     <span class="hero-badge">★ 9.6 Exceptional · 29 verified reviews</span>
     <h1>Wake up to the <em>Indian Ocean</em>, two minutes from the sand.</h1>
-    <p class="hero-sub">A beautifully renovated 3-bedroom beachfront apartment in Salt Rock, Ballito — private pool, sea views, and everything you need for a coastal escape.</p>
+    <p class="hero-sub">A beautifully renovated 3-bedroom beachfront apartment in Salt Rock, Ballito — shared pool, sea views, and everything you need for a coastal escape.</p>
     <div class="hero-actions">
       <a href="#book" class="btn btn--primary">Check Availability</a>
       <a href="#gallery" class="btn btn--ghost">View Gallery</a>
@@ -144,7 +190,7 @@
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-          Direct beachfront access
+          Beach access · 2-minute walk
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M2 20h20M9 8h6M9 11h6"/></svg>
@@ -228,13 +274,13 @@
     <div class="amenities-grid reveal">
       <div class="amenity-card">
         <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <h4>Beachfront Access</h4>
-        <p>Direct, 2-minute walk to lifeguard-patrolled, shark-net protected Salt Rock Beach.</p>
+        <h4>Beach Access</h4>
+        <p>2-minute walk to lifeguard-patrolled, shark-net protected Salt Rock Beach.</p>
       </div>
       <div class="amenity-card">
         <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 17c1.5-2 3.5-2 5 0s3.5 2 5 0 3.5-2 5 0 3.5 2 5 0M2 12c1.5-2 3.5-2 5 0s3.5 2 5 0 3.5-2 5 0 3.5 2 5 0"/></svg></div>
         <h4>Outdoor Pool</h4>
-        <p>A private swimming pool with sun loungers, plus sea and mountain views.</p>
+        <p>A shared, residents' outdoor pool with sun loungers, plus sea and mountain views.</p>
       </div>
       <div class="amenity-card">
         <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.5a11 11 0 0 1 14 0M8.5 16a6 6 0 0 1 7 0M12 19.5h.01"/></svg></div>
@@ -385,7 +431,7 @@
       <div class="review-score">
         <span class="stars">★★★★★</span>
         <strong>5.0</strong>
-        <span>Airbnb · Guest favourite</span>
+        <span>Airbnb rating</span>
       </div>
       <div class="review-score">
         <span class="stars">★★★★★</span>
@@ -461,19 +507,18 @@
     <div class="reveal">
       <span class="eyebrow">Meet your host</span>
       <h2>Hosted by Amar</h2>
-      <p>I'm an IT professional living with my family in South Africa. I've travelled through India, Europe, Namibia and across South Africa, and I love sharing this beautiful Ballito experience with guests from around the world — cooking, music and long coastal drives are some of my biggest passions.</p>
+      <p>I love sharing this beautiful part of the Dolphin Coast with guests from around the world. I'm always just a message away to help make your stay at The Waves as comfortable and memorable as possible.</p>
       <div class="host-badges">
         <span class="host-badge">9.9 Host review score</span>
         <span class="host-badge">100% response rate</span>
         <span class="host-badge">Responds within an hour</span>
       </div>
-      <p>Always just a message away to help you enjoy every moment of your stay.</p>
     </div>
   </div>
 </section>
 
 <!-- ============ HOUSE RULES ============ -->
-<section class="section section--navy">
+<section class="section section--navy" id="rules">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Good to know</span>
@@ -593,15 +638,25 @@
           <li><a href="#about">The Stay</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="salt-rock-ballito-guide.html">Area Guide</a></li>
           <li><a href="#reviews">Reviews</a></li>
+          <li><a href="https://maps.app.goo.gl/8pE68Bpx9n8nbdH4A" target="_blank" rel="noopener">Get Directions</a></li>
         </ul>
       </div>
       <div>
-        <h4>Book Direct</h4>
+        <h4>Book Your Stay</h4>
         <ul>
           <li><a href="https://www.booking.com/Share-FTQgid" target="_blank" rel="noopener">Booking.com</a></li>
           <li><a href="https://www.airbnb.co.za/rooms/1359226054401859183" target="_blank" rel="noopener">Airbnb</a></li>
-          <li><a href="https://maps.app.goo.gl/8pE68Bpx9n8nbdH4A" target="_blank" rel="noopener">Google Maps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Good to Know</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="#rules">House Rules</a></li>
+          <li><a href="#book">Contact</a></li>
         </ul>
       </div>
     </div>
